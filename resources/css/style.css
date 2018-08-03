@@ -122,3 +122,13 @@ a{
   justify-content: center;
   opacity: 1;
 }
+
+.contact{
+  height: 200px
+}
+
+footer{
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
