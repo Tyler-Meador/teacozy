@@ -31,6 +31,7 @@ header{
 nav{
   display: flex;
   padding-right: 10px;
+  align-items: center;
 }
 
 nav span{
@@ -65,4 +66,45 @@ a{
 
 .mission-item h2, h4{
   margin: 10px;
+}
+
+
+.tea-container{
+  width: 1000px;
+  margin: auto;
+  padding-bottom: 70px;
+}
+
+.steeping{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tea-item{
+  padding: 15px;
+}
+
+.tea-item span{
+  display: block;
+  font-weight: bold;
+  text-align: center;
+}
+
+.tea-item img{
+  height: 200px;
+}
+
+.location-main{
+  background-image: url("../images/locations.jpg");
+  height: 500px;
+  padding-top: 70px;
+}
+
+.location-container{
+  display: flex;
+}
+
+.location-item{
+  background-color: black;
 }
